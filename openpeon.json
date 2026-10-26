@@ -1,0 +1,57 @@
+{
+  "cesp_version": "1.0",
+  "name": "hl2",
+  "display_name": "Half-Life 2 (HEV Suit)",
+  "version": "1.0.0",
+  "author": {
+    "name": "nikolai-momot",
+    "github": "nikolai-momot"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/battery_pickup.wav", "label": "HEV battery pickup" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/wpn_moveselect.wav", "label": "HUD select" },
+        { "file": "sounds/wpn_select.wav", "label": "Weapon select" },
+        { "file": "sounds/wpn_hudoff.wav", "label": "HUD off" },
+        { "file": "sounds/buttonclickrelease.wav", "label": "Button release" },
+        { "file": "sounds/flashlight1.wav", "label": "Flashlight toggle" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/suitchargeok1.wav", "label": "Charge complete" },
+        { "file": "sounds/medcharge4.wav", "label": "Med charge" },
+        { "file": "sounds/smallmedkit1.wav", "label": "Medkit" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/warning.wav", "label": "HEV warning" },
+        { "file": "sounds/wpn_denyselect.wav", "label": "Selection denied" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/message.wav", "label": "Incoming message" },
+        { "file": "sounds/friend_online.wav", "label": "Friend online" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/suitchargeno1.wav", "label": "No charge available" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/buttonrollover.wav", "label": "HUD rollover" }
+      ]
+    }
+  }
+}
